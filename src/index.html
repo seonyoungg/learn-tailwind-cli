@@ -8,14 +8,24 @@
     <link rel="stylesheet" href="./styles/output.css" />
     <!-- 
     [Q] styles/input.css 인데 왜 styles/output.css 일까? 
-    [A] 
+    [A] 테일윈드css 특성상 input.css는 원본 파일이고, 실제로 HTML에서 적용할 때는 빌드된 output.css를 사용 필요
     -->
   </head>
-  <body>
-    <h1>유틸리티 퍼스트 - Tailwind CSS</h1>
-    <figure>
-      <img src="./assets/tailwind-text-logo.svg" alt="Tailwind CSS" />
-      <figcaption>텍스트 로고</figcaption>
-    </figure>
+  <body class="bg-apple-blue-100">
+    <div class="border-1 m-4.5 p-8 flex flex-col items-center gap-4">
+      <h1 class="text-3xl text-apple-white px-10 break-words">
+        유틸리티 퍼스트 - Tailwind CSS
+      </h1>
+      <figure class="w-40">
+        <img
+          class="hidden md:block"
+          src="./assets/tailwind-text-logo.svg"
+          alt="Tailwind CSS"
+        />
+        <figcaption class="hidden sm:block text-center mt-2 text-white">
+          텍스트 로고
+        </figcaption>
+      </figure>
+    </div>
   </body>
 </html>
