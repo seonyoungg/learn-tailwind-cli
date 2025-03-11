@@ -54,10 +54,16 @@
 
 @layer components{
   .notice{
-    @apply flex border border-gray-500 bg-blue-950;
+    @apply flex border border-gray-500 bg-(image:--ediya-blue-gradient);
     
     > div{
-      @apply p-4 text-white w-[200px] relative;
+      @apply p-4 text-white w-[130px] relative;
+    }
+  }
+
+  .card-contents{
+    > li {
+      @apply flex justify-between gap-8 min-w-0
     }
   }
 
