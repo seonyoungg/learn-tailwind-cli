@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>모달 - Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="preload" as="font" href="/assets/font/pretendard/woff2/PretendardVariable.woff2">
+    <link rel="stylesheet" href="/styles/output.css" />
+    <script type="module" src="/scripts/modal.js"></script>
+  </head>
+  <body class="">
+    <button type="button" class="text-white bg-blue-950 py-2 px-4 m-4 rounded-lg show-dialog">혜택 보기</button>
+
+    <div class="">
+      <dialog class="rounded-lg shadow-2xl flex flex-col gap-4 opacity-0 open:opacity-100 starting:open:opacity-0 transition-opacity duration-700 panel-dialog fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4" aria-labelledby="surprise-benefits">
+        <h2 class="text-2xl font-bold text-blue-950" id="surprise-benefits">깜짝 혜택</h2>
+        <p>쉿! 고객님만을 위한 깜짝 할인 쿠폰 <br /> 어제 빠뜨린 상품도 할인받고 내일 만나요!</p>
+        <a href="/" class="underline underline-offset-4">쿠폰 확인하기</a>
+        
+        <button type="button" class="close-dialog bg-blue-950 text-white self-end px-4 py-2">닫기</button>
+      </dialog>
+    </div>
+
+</body>
+</html>
