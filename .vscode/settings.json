@@ -5,6 +5,7 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/output.css":true,
     "**/node_modules": true
   },
   "files.associations": {
