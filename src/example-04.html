@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notice - Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="preload" as="font" href="/assets/font/pretendard/woff2/PretendardVariable.woff2" />
+    <link rel="stylesheet" href="/styles/output.css" />
+  </head>
+  <body>
+    <section class="notice border-4 border-red-600">
+      <div class="text-yellow-300">
+        <h2 class="text-xl font-bold">NOTICE</h2>
+        <div class="absolute right-4 bottom-4">
+          <button class="">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <title>이전 공지사항 보기</title>
+              <rect x="0.5" y="0.5" width="15" height="15" stroke="#F5F5F5" />
+              <path d="M9.25 10.5L6.75 8L9.25 5.5" stroke="#F5F5F5" />
+            </svg>
+          </button>
+          <button class="">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <title>다음 공지사항 보기</title>
+              <rect x="-0.5" y="0.5" width="15" height="15" transform="matrix(-1 0 0 1 15 0)" stroke="#F5F5F5" />
+              <path d="M6.75 10.5L9.25 8L6.75 5.5" stroke="#F5F5F5" />
+            </svg>
+          </button>
+        </div>
+      </div> 
+      <article class="p-4 bg-white grow space-y-2 min-w-0">
+        <h3 class="text-lg font-bold text-blue-800">이디야멤버스가 새로워집니다.</h3>
+        <time class="block text-gray-500 text-xs" datetime="2025-03-14T16:31:04">2025.03.14</time>
+        <p class="mt-4 truncate">이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제, 이디야카드, 스마트 </p>
+      </article>
+    </section>
+    
+  </body>
+</html>

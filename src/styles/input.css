@@ -32,3 +32,15 @@
 /* 추가 리셋이 필요할 경우 */
 @base {
 }
+
+
+@layer components{
+  .notice{
+    @apply flex border border-gray-500 bg-blue-950;
+    
+    > div{
+      @apply p-4 text-white w-[200px] relative;
+    }
+  }
+
+}
