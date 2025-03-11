@@ -1,13 +1,11 @@
 @import 'tailwindcss';
-/* ✅현재 디렉토리 내 tailwindcss 파일은 없으나 앞서 tailwindcss 패키지 설치하였으므로 자동으로 불러오게 됨 */
-body {
-  font-family: 'Pretendard Variable', sans-serif;
-}
+@import './../assets/font/pretendard/pretendardvariable.css';
+@import './../assets/font/notoserif/notoserif.css';
+@import url(../assets/font/suit/SUIT-Variable.css);
 @theme {
   /* 테일윈즈 일부 설정 재정의 */
   /* --color-*: initial; */
   /* --color-lion: rgb(197, 255, 255); */
-
   --color-apple-white: #f5f5f7;
   --color-apple-black: #1d1d1f;
   --color-apple-red: #d11719;
@@ -17,9 +15,20 @@ body {
   --color-apple-blue-300: #0071e3;
   --color-apple-blue-400: #006edb;
 
+  --color-ediya-blue: #24388d;
+  --color-ediya-blue200: #102457;
+  --ediya-blue-gradient: linear-gradient(137deg, #263d83 3.86%, #102457 100%);
+
+  /* index Layout을 위한 그리드 관련 변수 */
   --lion: repeat(auto-fit, minmax(200px, 1fr));
+
+  /* 기본 font-family 설정("Pretendard Variable") */
+  --font-*: initial;
+  --font-sans: 'Pretendard Variable', sans-serif;
+  --font-serif: 'Noto Serif KR', serif;
+  --font-suit: 'SUIT Variable', sans-serif;
 }
 
-/* root {
-  --like-lion: purple;
-} */
+/* 추가 리셋이 필요할 경우 */
+@base {
+}
