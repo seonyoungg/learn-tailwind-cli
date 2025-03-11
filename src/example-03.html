@@ -11,8 +11,9 @@
   <body class="p-4 font-sans">
     <h1 class="mb-4 text-3xl font-bold">이디야 예제 만들기</h2>
     <div class="flex flex-col gap-4">
+      
       <h4 class="text-xl font-semibold">Grid ver</h4>
-      <div class="grid grid-cols-5 max-w-[600px] h-[130px] bg-white border-1 border-gray-300">
+      <div class="grid grid-cols-5 bg-white border-1 border-gray-300">
         <div class="flex flex-col justify-between col-span-1 p-4 bg-(image:--ediya-blue-gradient)">
           <h2 class="text-xl font-bold text-center text-white">Notice</h2>
           <div class="self-end">
@@ -30,37 +31,40 @@
             </button>
           </div>
         </div>
-        <article class="flex flex-col col-span-4 gap-2 p-4">
+        <article class="flex flex-col col-span-4 gap-2 p-4 min-w-0">
           <h3 class="text-xl font-bold text-ediya-blue">이디야멤버스가 새로워집니다.</h3>
           <time class="text-sm text-gray-500">2020.04.25</time>
           <p class="truncate">이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제, 이디야카드, 스마트</p>
         </article>
       </div>
       
-      <h4 class="text-xl font-semibold">Flex ver - 슬비쌤</h4>
-      <div class="flex bg-white border-1 border-gray-300 bg-(image:--ediya-blue-gradient)"> 
-        <div class="p-4 w-[150px] text-white relative">
-          <h2 class="text-xl font-bold text-center">Notice</h2>
+      <h4 class="text-xl font-semibold">Flex ver - 슬비쌤</h4>   
+      <section class="flex border border-gray-500 bg-blue-950">
+        <div class="p-4 text-white w-[200px] relative">
+          <h2 class="text-xl font-bold">NOTICE</h2>
           <div class="absolute right-4 bottom-4">
-            <button>
-              <svg class="size-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <rect x="0.5" y="0.5" width="15" height="15" stroke="#F5F5F5"/>
-              <path d="M9.25 10.5L6.75 8L9.25 5.5" stroke="#F5F5F5"/>
+            <button class="">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <title>이전 공지사항 보기</title>
+                <rect x="0.5" y="0.5" width="15" height="15" stroke="#F5F5F5" />
+                <path d="M9.25 10.5L6.75 8L9.25 5.5" stroke="#F5F5F5" />
               </svg>
             </button>
-            <button>
-              <svg class="size-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <rect x="-0.5" y="0.5" width="15" height="15" transform="matrix(-1 0 0 1 15 0)" stroke="#F5F5F5"/>
-              <path d="M6.75 10.5L9.25 8L6.75 5.5" stroke="#F5F5F5"/>
+            <button class="">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <title>다음 공지사항 보기</title>
+                <rect x="-0.5" y="0.5" width="15" height="15" transform="matrix(-1 0 0 1 15 0)" stroke="#F5F5F5" />
+                <path d="M6.75 10.5L9.25 8L6.75 5.5" stroke="#F5F5F5" />
               </svg>
             </button>
           </div>
-        </div>
-        <article class="p-4 bg-white space-y-2 grow min-w-0">
-          <h3 class="text-xl font-bold text-ediya-blue">이디야멤버스가 새로워집니다.</h3>
-          <time class="text-sm text-gray-500 block">2020.04.25</time>
-          <p class="truncate mt-4">이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제, 이디야카드, 스마트</p>
+        </div> 
+        <article class="p-4 bg-white grow space-y-2 min-w-0">
+          <h3 class="text-lg font-bold text-blue-800">이디야멤버스가 새로워집니다.</h3>
+          <time class="block text-gray-500 text-xs" datetime="2025-03-14T16:31:04">2025.03.14</time>
+          <p class="mt-4 truncate">이디야멤버스에 새로운 기능이 추가됩니다. 추가되는 고객등급제, 이디야카드, 스마트 </p>
         </article>
+      </section>
     </div>
 
     </div>
