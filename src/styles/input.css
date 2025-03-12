@@ -50,8 +50,9 @@
   }
 
   /* Kream */
+  --color-kream-white: #fff;
   --color-kream-secondary: #eeeeee;
-  --color-primary:#222;
+  --color-primary:#1F1F21;
   --color-kream-beige:#E1B37F;
   --color-kream-green:#5C8D93;
 }
@@ -75,8 +76,13 @@
     @apply flex flex-col gap-4 border-1 p-4  
   }
 
+  
+  .component-box{
+    @apply flex flex-col gap-4 border-1 p-4 mb-4
+  }
+
   .max-container{
-    @apply max-w-[1920px] mx-auto
+    @apply max-w-[1280px] mx-auto
   }
 
 }
