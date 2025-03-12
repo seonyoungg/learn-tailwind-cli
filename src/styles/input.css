@@ -1,11 +1,9 @@
 @import 'tailwindcss';
 @import './../assets/font/pretendard/pretendardvariable.css';
 @import './../assets/font/notoserif/notoserif.css';
-@import url(../assets/font/suit/SUIT-Variable.css);
+@import './../assets/font/suit/SUIT-Variable.css';
+
 @theme {
-  /* 테일윈즈 일부 설정 재정의 */
-  /* --color-*: initial; */
-  /* --color-lion: rgb(197, 255, 255); */
   --color-apple-white: #f5f5f7;
   --color-apple-black: #1d1d1f;
   --color-apple-red: #d11719;
@@ -50,6 +48,12 @@
         transform: translateX(-5px) rotate(-1deg);
     }
   }
+
+  /* Kream */
+  --color-kream-secondary: #eeeeee;
+  --color-primary:#222;
+  --color-kream-beige:#E1B37F;
+  --color-kream-green:#5C8D93;
 }
 
 @layer components{
@@ -60,11 +64,19 @@
       @apply p-4 text-white w-[130px] relative;
     }
   }
-
   .card-contents{
     > li {
       @apply flex justify-between gap-8 min-w-0
     }
+  }
+
+  /* KREAM */
+  .component-container{
+    @apply flex flex-col gap-4 border-1 p-4  
+  }
+
+  .max-container{
+    @apply max-w-[1920px] mx-auto
   }
 
 }
