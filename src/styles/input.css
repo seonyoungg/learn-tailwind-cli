@@ -50,6 +50,13 @@
   }
 
   /* Kream */
+  --color-kream-white: #fff;
+  --color-kream-secondary: #eeeeee;
+  --color-primary:#1F1F21;
+  --color-kream-beige:#E1B37F;
+  --color-kream-darkgreen:#5C8D93;
+  --color-kream-green: #58DC76;
+  --color-kream-red: #B02C20;
 }
 
 @layer components{
