@@ -21,7 +21,7 @@
   --lion: repeat(auto-fit, minmax(200px, 1fr));
 
   /* 기본 font-family 설정("Pretendard Variable") */
-  --font-*: initial;
+  /* --font-*: initial; */
   --font-sans: 'Pretendard Variable', sans-serif;
   --font-serif: 'Noto Serif KR', serif;
   --font-suit: 'SUIT Variable', sans-serif;
