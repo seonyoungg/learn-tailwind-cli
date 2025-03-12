@@ -3,7 +3,8 @@
     "dev": "run-p serve watch",
     "serve": "live-server ./src --port=3000 --host=localhost --no-browser",
     "tailwind": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
-    "watch": "npm run tailwind -- --watch"
+    "watch": "npm run tailwind -- --watch",
+    "compile": "run-s clean build preview"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.12",
