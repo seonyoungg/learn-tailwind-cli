@@ -1,0 +1,52 @@
+[
+  {
+    "name": "✅ Test",
+    "color": "006B75",
+    "description": "테스트"
+  },
+  {
+    "name": "🐞 BugFix",
+    "color": "d73a4a",
+    "description": "버그 수정"
+  },
+  {
+    "name": "🖥️ Accessibility",
+    "color": "0075ca",
+    "description": "웹접근성"
+  },
+  {
+    "name": "✨ Feature",
+    "color": "FBCA04",
+    "description": "기능 개발"
+  },
+  {
+    "name": "📜Docs",
+    "color": "2D5731",
+    "description": "문서 작성 및 수정 (README.md 등)"
+  },
+  {
+    "name": "🌏 Deploy",
+    "color": "8C8C8C",
+    "description": "배포"
+  },
+  {
+    "name": "📬 API",
+    "color": "5319E7",
+    "description": "서버 API 통신"
+  },
+  {
+    "name": "🎨 Html/css",
+    "color": "F25D27",
+    "description": "마크업/스타일링"
+  },
+  {
+    "name": "🔨 Refactor",
+    "color": "F25D27",
+    "description": "코드 리팩토링"
+  },
+  {
+    "name": "⚙️ Setting",
+    "color": "AE4F8C",
+    "description": "개발 환경  세팅"
+  }
+]
